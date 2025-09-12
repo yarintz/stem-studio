@@ -1,0 +1,23 @@
+.gradio-container { background: #0c0c0f !important; }
+* { color: #eaeaea; }
+button, .gr-button { border-radius: 12px !important; }
+
+/* Exclude checkbox from input styling */
+input:not([type="checkbox"]), 
+textarea, 
+.gr-text-input, 
+.gr-box { 
+    background: #141418 !important; 
+    border-color: #2a2a2f !important; 
+}
+.stem-panel {
+    border: 2px solid #007BFF;
+    border-radius: 6px;
+    padding: 3px;
+    margin-bottom: 12px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+footer {
+    display: none !important;
+}

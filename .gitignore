@@ -1,0 +1,26 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual envs
+.venv/
+venv/
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local downloads / temp audio
+downloads/
+trimmed_temp.wav
+tmp*
+*.wav
+*.mp3
+
+# Logs
+*.log
+
+# Hugging Face spaces build cache (optional)
+.cache/

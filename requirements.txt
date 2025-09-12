@@ -1,0 +1,8 @@
+gradio>=4.0
+librosa>=0.10
+soundfile
+numpy
+scipy
+matplotlib
+pydub
+jupyterlab
