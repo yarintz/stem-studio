@@ -6,3 +6,5 @@ scipy
 matplotlib
 pydub
 jupyterlab
+yt_dlp
+demucs
