@@ -29,7 +29,7 @@ with gr.Blocks(js=js_func, css=css_content, theme=gr.themes.Soft(primary_hue="bl
     # STEP 1 - Upload & preview
     with gr.Row():
         file_input = gr.File(type="filepath", label="Upload a Song")
-        url_input = gr.Textbox(label="Or Use YouTube URL", visible=False)
+        url_input = gr.Textbox(label="Or Use YouTube URL")
     with gr.Row():
         process_button = gr.Button("Process")        
     with gr.Row():
